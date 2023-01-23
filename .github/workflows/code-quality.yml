@@ -21,6 +21,8 @@ jobs:
           pip install poetry --quiet
           poetry config virtualenvs.create false
           poetry install --with dev --quiet
+      - name: Check poetry
+        run: poetry check
       - name: Check formatting with black
         uses: psf/black@stable
         with:
