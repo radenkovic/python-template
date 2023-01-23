@@ -25,3 +25,9 @@ This is a super simple template for python3.11, integrates well with VSCode.
 - Notebook imports from venv working
 - `black` for formatting
 - `flake8` for linting
+
+# requirements.txt generation
+
+```bash
+poetry export --without-hashes --with dev --format=requirements.txt > requirements.txt
+```
