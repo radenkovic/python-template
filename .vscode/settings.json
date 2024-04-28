@@ -13,7 +13,8 @@
 
   // Jupyter Notebooks
   "jupyter.notebookFileRoot": "${workspaceFolder}",
-  // Tests: be sure to create __init__.py in tests folder
+  
+  // Tests
   "python.testing.pytestArgs": ["./tests"],
   "python.testing.pytestEnabled": true
 }
