@@ -1,11 +1,11 @@
 # Python Template
 
-> Simple Python template with pytest, black and flake8
-> Also includes configs for VSCode (test runner config and project congfig)
+Simple Python template with pytest, black, and flake8
 
-This is a super simple template for python3.11, integrates well with VSCode.
+This is a super simple template for python3.11.
+It includes configs for VSCode (test runner config and project config)
 
-## Getting started
+## Getting Started
 
 - Install poetry first
 - `python3.11 -m venv venv` (to create virtualenv)
@@ -14,7 +14,7 @@ This is a super simple template for python3.11, integrates well with VSCode.
   - `with --jupyter` only if you need notebooks
 - Production: poetry install --only main
 
-# Includes
+## Includes
 
 - Uses `poetry` as package manager
 - Tests integrated in VSCode (tests panel)
@@ -26,7 +26,7 @@ This is a super simple template for python3.11, integrates well with VSCode.
 - `black` for formatting
 - `flake8` for linting
 
-# requirements.txt generation
+## `requirements.txt` generation
 
 ```bash
 poetry export --without-hashes --with dev --format=requirements.txt > requirements.txt
